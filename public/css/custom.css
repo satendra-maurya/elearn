@@ -1,0 +1,238 @@
+html, body {
+    min-height: 100%;
+    height: auto;
+}
+body {
+    height: 100%;
+}
+
+/********** Login Page ***************/
+
+.skin-blue-light .main-sidebar {
+    background: #415263;
+}
+.login-page {
+   background: #f4f7fa;
+    background-size: cover;
+}
+.login-box {
+    max-width: 400px;
+    width: 100%;
+}
+.btn.btn-flat.login-btn, .btn.btn-flat.single-click, .blue-btn, .blue-btn:hover {
+    background-color: #5a99ff;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0 15px;
+    padding: 16px;
+    text-align: center;
+    transition: all 150ms linear 0s;
+    width: 100%;
+}
+.blue-opt-btn, .blue-opt-btn:hover {
+    background-color: #fff;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 1px solid #5a99ff;
+    color: #5a99ff;
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+    transition: all 150ms linear 0s;
+    width: 100%;
+}
+
+.login-page label, .skin-blue-light label {
+    color: #374350;
+    font-size: 15px;
+    font-weight: normal;
+}
+.login-page a {
+    color: #5a99ff;
+}
+.login-page .panel-default, .skin-blue-light .panel-body  {
+    border: 0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 0 4px 6px 0 rgba(67, 81, 96, 0.1);
+    -webkit-box-shadow: 0 4px 6px 0 rgba(67, 81, 96, 0.1);
+    -moz-box-shadow: 0 4px 6px 0 rgba(67, 81, 96, 0.1);
+    padding: 20px;
+}
+.login-page .panel-default>.panel-heading {
+    background: none;
+    border: 0;
+    font-size: 22px;
+    text-align: center;
+    color: #374350;
+}
+.input-group .form-control {
+    height: 48px;
+    width: 100%;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 0.8px #c3d1e2;
+}
+.input-group .input-group-addon {
+    border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+}
+/* Loader css */
+.bg-loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;}
+
+.cssload-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -83px;
+    margin-left: -83px; }
+
+
+
+@keyframes cssload-gogoloader {
+    0% {
+        transform: scale(0);
+        opacity: 0; }
+    50% {
+        opacity: 1; }
+    100% {
+        transform: scale(1);
+        opacity: 0; } }
+
+@-o-keyframes cssload-gogoloader {
+    0% {
+        -o-transform: scale(0);
+        opacity: 0; }
+    50% {
+        opacity: 1; }
+    100% {
+        -o-transform: scale(1);
+        opacity: 0; } }
+
+@-ms-keyframes cssload-gogoloader {
+    0% {
+        -ms-transform: scale(0);
+        opacity: 0; }
+    50% {
+        opacity: 1; }
+    100% {
+        -ms-transform: scale(1);
+        opacity: 0; } }
+
+@-webkit-keyframes cssload-gogoloader {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0; }
+    50% {
+        opacity: 1; }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0; } }
+
+@-moz-keyframes cssload-gogoloader {
+    0% {
+        -moz-transform: scale(0);
+        opacity: 0; }
+    50% {
+        opacity: 1; }
+    100% {
+        -moz-transform: scale(1);
+        opacity: 0; } }
+
+/* End Loader css */
+
+.main-header .logo-lg img {
+    height: 36px;
+}
+.main-header .logo-mini img {
+    height: 32px;
+}
+/*.skin-blue-light .main-header .navbar, .skin-blue-light .sidebar-menu>li.header {
+    background: #fff;
+}*/
+
+.main-header .logo .logo-mini {
+    display: inline-block;
+    vertical-align: top;
+}
+.skin-blue-light .sidebar a {
+    color: #fff8f8;
+}
+.login-logo, .register-logo {
+    margin-bottom: 0;
+    padding: 5px 0;
+}
+.login-box .login-logo img {
+    width: 96%;
+}
+
+/******* Confirm Popup ************/
+.modal-btn {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.msg-Modal .modal-dialog {
+    display: table;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.msg-Modal .modal-content {
+    background: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.msg-Modal .modal-body-box {
+    background: #fff none repeat scroll 0 0;
+    margin: 10px auto;
+    max-width: 592px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.msg-Modal .modal-header {
+    border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    background: #f9f9f9;
+}
+.modal-footer button, .modal-footer button:hover, .modal-footer input[type="button"] {
+    width: auto;
+    margin: 0;
+}
+.blue-btn, .blue-opt-btn, .blue-btn:hover, .blue-opt-btn:hover {
+    padding: 8px 25px;
+}
+#btn-search{
+    padding: 13px 21px;
+}
+textarea {
+   resize: none;
+}
+.logo {
+    background: #ffffff!important;
+}
+.widget-user .widget-user-image > img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #cec7c7;
+}

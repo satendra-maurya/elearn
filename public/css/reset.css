@@ -1,0 +1,82 @@
+body {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: #3d484f;
+}
+.body-bg{
+	background-color: #e4e7e9;
+}
+.logo-ctn{
+	text-align: center;
+	padding: 0.75rem 0 3.3125rem;
+}
+
+.page-heading{
+	font-size: 1.125rem;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+.form-control::placeholder {
+    color: #9b9b9b;
+    opacity: 1; /* Firefox */
+}
+.form-group .form-control{
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 0;
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+.form-group .form-control:focus{
+	outline: 0;
+	box-shadow: none;
+}
+
+/* BUTTON STYLE*/
+.btn{
+	font-size: 0.875rem;
+	padding: 0.75rem 1.5rem;
+	line-height: 1.3;
+	border-radius: .375rem;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(63, 111, 140,.25);
+}
+.btn-app-primary{
+	color: #fff;
+   	background-color: #3F6F8C;
+    border-color: #3F6F8C;
+}
+/*CARD STYLE*/
+.custom-card {
+	box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.15);
+}
+.custom-card .card-title{
+	font-weight: bold;
+	font-size: 0.9375rem;
+	margin-top: 1.5rem
+}
+.custom-card .card-text{
+	font-size: 0.875rem;
+	margin-bottom: 1.5rem;
+}
+
+/*FOOTER*/
+.footer{
+	color: #555555;
+	font-size: 0.75rem;
+	text-align: center;
+}
+
+.form-group.has-error label {
+    color: #dd4b39;
+}
+.form-group.has-error .form-control, .form-group.has-error .input-group-addon {
+    border-color: #dd4b39;
+    box-shadow: none;
+}
+.form-group .help-block {
+    color: #dd4b39;
+}
